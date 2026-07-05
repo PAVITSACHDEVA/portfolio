@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Lumix Core",
+    "folder": "lumix-core",
+    "image": "assets/images/lumix.svg",
+    "description": "A polished AI platform landing page with a responsive hero, feature grid, and interactive dashboard preview.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "tags": ["HTML", "CSS", "JavaScript", "AI"],
+    "demo": "codes/lumix-core/index.html"
+  },
+  {
+    "title": "Study Sprint",
+    "folder": "study-sprint",
+    "image": "assets/images/study-sprint.svg",
+    "description": "A productivity timer for students with session tracking, subject filters, and clean focus-mode controls.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "tags": ["HTML", "CSS", "JavaScript", "School"],
+    "demo": "codes/study-sprint/index.html"
+  },
+  {
+    "title": "Python Marks Analyzer",
+    "folder": "marks-analyzer",
+    "image": "assets/images/marks-analyzer.svg",
+    "description": "A Python utility that analyzes class marks, calculates grades, and prints helpful performance summaries.",
+    "technologies": ["Python"],
+    "tags": ["Python", "School"],
+    "demo": "codes/marks-analyzer/main.py"
+  },
+  {
+    "title": "Lumix Core",
+    "folder": "Lumix_core",
+    "image": "assets/images/lumixcore.svg",
+    "description": "An AI-powered productivity platform featuring image generation, image conversion, PDF compression, and intelligent assistant tools.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "tags": ["AI", "Web App", "Utilities"],
+    "demo": "codes/Lumix_core/index.html"
+  }
+]

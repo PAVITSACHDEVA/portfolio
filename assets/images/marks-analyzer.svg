@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Python Marks Analyzer preview</title>
+  <desc id="desc">Grade analysis chart artwork.</desc>
+  <rect width="960" height="540" rx="46" fill="#0b1020"/>
+  <rect x="86" y="76" width="788" height="388" rx="30" fill="#f8fafc"/>
+  <rect x="130" y="128" width="264" height="284" rx="18" fill="#111827"/>
+  <path d="M166 180h168M166 226h118M166 272h146M166 318h92M166 364h136" stroke="#93c5fd" stroke-width="14" stroke-linecap="round"/>
+  <rect x="462" y="310" width="48" height="92" rx="10" fill="#2563eb"/>
+  <rect x="542" y="242" width="48" height="160" rx="10" fill="#7c3aed"/>
+  <rect x="622" y="188" width="48" height="214" rx="10" fill="#14b8a6"/>
+  <rect x="702" y="132" width="48" height="270" rx="10" fill="#f59e0b"/>
+  <path d="M450 404h326" stroke="#0f172a" stroke-width="10" stroke-linecap="round"/>
+  <path d="M462 218c62 12 98-76 146-44 50 34 72-22 130-72" fill="none" stroke="#ef4444" stroke-width="12" stroke-linecap="round"/>
+</svg>

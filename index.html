@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pavit S developer portfolio with projects, skills, and VS Code inspired code viewer.">
+  <title>Pavit S | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <header class="site-header" id="siteHeader">
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="#home" class="brand" aria-label="Pavit S home">
+        <span class="brand-mark">PS</span>
+        <span>Pavit S</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#learning-codes">Learning Codes</a>
+        <a href="#code-viewer">Code Viewer</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark and light theme">
+        <span class="theme-icon">☾</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+        <p class="eyebrow">Developer portfolio</p>
+        <h1>Pavit S</h1>
+        <p class="hero-role">I am a <span id="typingText"></span><span class="cursor" aria-hidden="true"></span></p>
+        <p class="hero-copy">I build clean web experiences, useful school projects, and creative tools with code that is simple to understand and easy to improve.</p>
+        <div class="hero-actions">
+          <a class="btn primary ripple" href="#projects">View Projects</a>
+          <a class="btn secondary ripple" href="#contact">Contact</a>
+        </div>
+        <div class="social-row" aria-label="Social links">
+          <a href="https://github.com/PAVITSACHDEVA" target="_blank" rel="noreferrer" aria-label="GitHub">GH</a>
+          <!-- <a href="https://www.linkedin.com/in/pavit-s" target="_blank" rel="noreferrer" aria-label="LinkedIn">in</a> -->
+          <a href="mailto:pavitsachdeva1@gmail.com" aria-label="Email">@</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="profile-card floating" aria-label="Pavit S profile artwork">
+          <div class="avatar">
+            <span>&lt;/&gt;</span>
+          </div>
+          <div class="mini-terminal">
+            <p><span>const</span> focus = "build";</p>
+            <p><span>ship</span>("portfolio");</p>
+          </div>
+        </div>
+      </div>
+      <a class="scroll-indicator" href="#about" aria-label="Scroll to about section"><span></span></a>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">About</p>
+        <h2>Curious, practical, and always building.</h2>
+      </div>
+      <div class="about-grid">
+        <article class="glass-panel reveal">
+          <h3>About me</h3>
+          <p>Pavit S is a student developer who enjoys turning ideas into working websites, apps, and interactive experiments. His work blends programming, design, and problem solving with a strong focus on clean interfaces and readable code.</p>
+        </article>
+        <article class="glass-panel reveal">
+          <h3>Education</h3>
+          <p>Student focused on computer science fundamentals, web development, mathematics, and creative technology projects.</p>
+        </article>
+        <article class="glass-panel reveal">
+          <h3>Interests</h3>
+          <p>Frontend engineering, Python automation, UI design, artificial intelligence, school innovation projects, and learning how real software products are shipped.</p>
+        </article>
+      </div>
+      <div class="timeline reveal">
+        <div class="timeline-card"><span>2023</span><strong>Started coding</strong><p>Built first HTML and CSS pages.</p></div>
+        <div class="timeline-card"><span>2024</span><strong>JavaScript projects</strong><p>Created interactive tools and project demos.</p></div>
+        <div class="timeline-card"><span>2025</span><strong>Python and AI</strong><p>Explored automation, logic, and AI-powered ideas.</p></div>
+        <div class="timeline-card"><span>2026</span><strong>Portfolio launch</strong><p>Collected projects into a polished developer website.</p></div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Skills</p>
+        <h2>Tools I use to make ideas real.</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-group glass-panel reveal">
+          <h3>Languages</h3>
+          <div class="skill" data-level="94"><span>HTML</span><b>94%</b><div><i></i></div></div>
+          <div class="skill" data-level="90"><span>CSS</span><b>90%</b><div><i></i></div></div>
+          <div class="skill" data-level="84"><span>JavaScript</span><b>84%</b><div><i></i></div></div>
+          <div class="skill" data-level="78"><span>Python</span><b>78%</b><div><i></i></div></div>
+          <div class="skill" data-level="68"><span>C++</span><b>68%</b><div><i></i></div></div>
+          <div class="skill" data-level="64"><span>Java</span><b>64%</b><div><i></i></div></div>
+        </div>
+        <div class="skill-group glass-panel reveal">
+          <h3>Tools</h3>
+          <div class="skill" data-level="92"><span>VS Code</span><b>92%</b><div><i></i></div></div>
+          <div class="skill" data-level="80"><span>Git</span><b>80%</b><div><i></i></div></div>
+          <div class="skill" data-level="82"><span>GitHub</span><b>82%</b><div><i></i></div></div>
+          <div class="skill" data-level="74"><span>Photoshop</span><b>74%</b><div><i></i></div></div>
+          <div class="stats">
+            <div><strong data-count="12">0</strong><span>Projects</span></div>
+            <div><strong data-count="6">0</strong><span>Languages</span></div>
+            <div><strong data-count="4">0</strong><span>Toolsets</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Projects</p>
+        <h2>Selected builds and experiments.</h2>
+      </div>
+      <div class="project-toolbar reveal">
+        <label class="search-box" for="projectSearch">
+          <span>⌕</span>
+          <input id="projectSearch" type="search" placeholder="Search projects..." aria-label="Search projects">
+        </label>
+        <div class="filters" id="projectFilters" aria-label="Project filters"></div>
+      </div>
+      <div class="project-stats reveal" id="projectStats"></div>
+      <div class="project-grid" id="projectGrid" aria-live="polite"></div>
+    </section>
+
+    <section class="section learning-codes" id="learning-codes">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Learning Codes</p>
+        <h2>Practice programs, experiments, and school exercises.</h2>
+      </div>
+      <div class="learning-stats reveal" id="learningStats">
+        <span><strong data-learning-count="total">0</strong>Total Learning Codes</span>
+        <span><strong data-learning-count="languages">0</strong>Languages</span>
+        <span><strong data-learning-count="categories">0</strong>Categories</span>
+      </div>
+      <div class="project-toolbar reveal">
+        <label class="search-box" for="learningSearch">
+          <span>⌕</span>
+          <input id="learningSearch" type="search" placeholder="Search learning codes..." aria-label="Search learning codes">
+        </label>
+        <label class="sort-box" for="learningSort">
+          <span>Sort</span>
+          <select id="learningSort" aria-label="Sort learning codes">
+            <option value="newest">Newest</option>
+            <option value="oldest">Oldest</option>
+            <option value="az">A-Z</option>
+            <option value="za">Z-A</option>
+          </select>
+        </label>
+        <div class="filters" id="learningFilters" aria-label="Learning code filters"></div>
+      </div>
+      <div class="project-grid" id="learningGrid" aria-live="polite"></div>
+    </section>
+
+    <section class="section code-section" id="code-viewer">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Code Viewer</p>
+        <h2>Explore project files without leaving the page.</h2>
+      </div>
+      <div class="code-viewer reveal">
+        <aside class="file-sidebar" aria-label="Project file tree">
+          <div class="viewer-header">
+            <strong>Explorer</strong>
+            <span id="currentProjectName">Lumix Core</span>
+          </div>
+          <div class="folder-tree" id="folderTree"></div>
+        </aside>
+        <div class="editor-pane">
+          <div class="tabs" id="editorTabs"></div>
+          <div class="editor-tools">
+            <span class="breadcrumb" id="breadcrumb">codes / lumix-core / index.html</span>
+            <label class="code-search" for="codeSearch">
+              <span>⌕</span>
+              <input id="codeSearch" type="search" placeholder="Search current file" aria-label="Search current file">
+            </label>
+            <button class="icon-btn ripple" id="copyCode" aria-label="Copy current code">Copy</button>
+          </div>
+          <div class="spinner" id="codeSpinner" aria-hidden="true"></div>
+          <pre class="code-editor" id="codeEditor" tabindex="0" aria-label="Code editor"></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Let's build something clear and useful.</h2>
+      </div>
+      <div class="contact-grid">
+        <form class="contact-form glass-panel reveal" id="contactForm">
+          <label>Name<input name="name" type="text" required autocomplete="name"></label>
+          <label>Email<input name="email" type="email" required autocomplete="email"></label>
+          <label>Message<textarea name="message" rows="5" required></textarea></label>
+          <button class="btn primary ripple" type="submit">Send Message</button>
+        </form>
+        <div class="contact-links glass-panel reveal">
+          <a href="https://github.com/PAVITSACHDEVA" target="_blank" rel="noreferrer">GitHub</a>
+          <!-- <a href="https://www.linkedin.com/in/pavit-s" target="_blank" rel="noreferrer">LinkedIn</a> -->
+          <a href="mailto:pavitsachdeva1@gmail.com">pavits</a>
+          <p>Current time: <strong id="currentTime"></strong></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Pavit S. Designed and coded with HTML, CSS, and JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

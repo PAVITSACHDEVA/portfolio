@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="outerGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7B2FF7"/>
+      <stop offset="50%" stop-color="#FF2D95"/>
+      <stop offset="100%" stop-color="#29B6F6"/>
+    </linearGradient>
+    <linearGradient id="innerGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF4F9A"/>
+      <stop offset="100%" stop-color="#6D5BFF"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+
+  <rect width="128" height="128" rx="24" fill="#141625"/>
+  <circle cx="64" cy="64" r="38" fill="url(#outerGlow)" opacity="0.35" filter="url(#blur)"/>
+
+  <rect x="42" y="42" width="44" height="44"
+        rx="8"
+        transform="rotate(45 64 64)"
+        fill="none"
+        stroke="url(#outerGlow)"
+        stroke-width="5"/>
+
+  <circle cx="64" cy="64" r="18"
+          fill="none"
+          stroke="url(#innerGlow)"
+          stroke-width="8"/>
+
+  <circle cx="64" cy="64" r="6" fill="#FF5BA7"/>
+
+  <path d="M64 84 L64 104"
+        stroke="#FF2D95"
+        stroke-width="6"
+        stroke-linecap="round"/>
+
+  <path d="M28 64 H44" stroke="#7B2FF7" stroke-width="5" stroke-linecap="round"/>
+  <path d="M84 64 H100" stroke="#29B6F6" stroke-width="5" stroke-linecap="round"/>
+</svg>
