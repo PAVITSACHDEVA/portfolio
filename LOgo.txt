@@ -1,3 +1,5 @@
-git add assets/logo/lumixcore.svg
-git commit -m "Update Lumix Core logo"
+git add .
+git commit -m "Add Lumix Core logo"
+git push origin maingit add .
+git commit -m "Add Lumix Core logo"
 git push origin main
