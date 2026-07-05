@@ -34,5 +34,14 @@
     "technologies": ["HTML", "CSS", "JavaScript"],
     "tags": ["AI", "Web App", "Utilities"],
     "demo": "codes/Lumix_core/index.html"
-  }
+  },
+  {
+  "title": "OpenTools",
+  "folder": "OpenTools",
+  "image": "assets/images/faviconOpenTools.svg",
+  "description": "A collection of free online productivity and file tools with a fast, modern interface.",
+  "technologies": ["HTML", "CSS", "JavaScript"],
+  "tags": ["Utilities", "Productivity", "Web App"],
+  "demo": "https://pavitsachdeva.github.io/OpenTools/"
+}
 ]
