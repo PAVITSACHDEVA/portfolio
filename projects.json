@@ -1,13 +1,5 @@
 [
-  {
-    "title": "Lumix Core",
-    "folder": "lumix-core",
-    "image": "assets/images/lumix.svg",
-    "description": "A polished AI platform landing page with a responsive hero, feature grid, and interactive dashboard preview.",
-    "technologies": ["HTML", "CSS", "JavaScript"],
-    "tags": ["HTML", "CSS", "JavaScript", "AI"],
-    "demo": "codes/lumix-core/index.html"
-  },
+
   {
     "title": "Study Sprint",
     "folder": "study-sprint",
@@ -17,15 +9,7 @@
     "tags": ["HTML", "CSS", "JavaScript", "School"],
     "demo": "codes/study-sprint/index.html"
   },
-  {
-    "title": "Python Marks Analyzer",
-    "folder": "marks-analyzer",
-    "image": "assets/images/marks-analyzer.svg",
-    "description": "A Python utility that analyzes class marks, calculates grades, and prints helpful performance summaries.",
-    "technologies": ["Python"],
-    "tags": ["Python", "School"],
-    "demo": "codes/marks-analyzer/main.py"
-  },
+
   {
     "title": "Lumix Core",
     "folder": "Lumix_core",
@@ -45,10 +29,10 @@
   "demo": "https://pavitsachdeva.github.io/OpenTools/"
 },
 {
-  "title": "AI Assistant",
+  "title": "Utlity Hub",
   "folder": "AI",
   "image": "assets/images/brandUtility.svg",
-  "description": "A modern AI assistant with a clean interface, interactive chat, and productivity features built using HTML, CSS, and JavaScript.",
+  "description": "A modern utility assistant with a clean interface, interactive features, and productivity tools built using HTML, CSS, and JavaScript.",
   "technologies": ["HTML", "CSS", "JavaScript"],
   "tags": ["AI", "Chatbot", "Web App"],
   "demo": "https://pavitsachdeva.github.io/AI/",
