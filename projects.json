@@ -43,5 +43,15 @@
   "technologies": ["HTML", "CSS", "JavaScript"],
   "tags": ["Utilities", "Productivity", "Web App"],
   "demo": "https://pavitsachdeva.github.io/OpenTools/"
+},
+{
+  "title": "AI Assistant",
+  "folder": "AI",
+  "image": "assets/images/brandUtility.svg",
+  "description": "A modern AI assistant with a clean interface, interactive chat, and productivity features built using HTML, CSS, and JavaScript.",
+  "technologies": ["HTML", "CSS", "JavaScript"],
+  "tags": ["AI", "Chatbot", "Web App"],
+  "demo": "https://pavitsachdeva.github.io/AI/",
+  "github": "https://github.com/PAVITSACHDEVA/AI"
 }
 ]
